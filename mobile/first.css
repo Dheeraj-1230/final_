@@ -1,0 +1,92 @@
+@media (min-width:720px){
+#background{
+    background-image:url("mike.jpg");
+    height:100%;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    width:100%;
+    opacity:0.9;
+}
+h1{
+    color:white;
+    position:absolute;
+    top:10px;
+    left:28%;
+    opacity:1;
+    font-size:50px;
+}
+h3
+{
+    position:absolute;
+    color:white;
+    font-size:30px;
+    top:25%;
+    left:30%;
+
+}
+button{
+    position:absolute;
+    top:50%;
+    left:40%;
+    background-color:black;
+    color:white;
+    height:70px;
+    width:250px;
+    font-size:35px;
+    border-radius:7.5px 7.5px 7.5px 7.5px;
+    border: 0.75px solid white;
+}
+a{
+ color:white;   
+}
+button:hover{
+    background-color:orange;
+}
+}
+
+
+
+@media (max-width:720px){
+    #background{
+        background-image:url("back2.jpg");
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+        height:100%;
+        width:100%;
+        opacity:0.9;
+    }
+    h1{
+        color:white;
+        position:absolute;
+        top:-5px;
+        left:2%;
+        opacity:1;
+        font-size:50px;
+    }
+    
+    button{
+        position:absolute;
+        top:60%;
+        left:25%;
+        background-color:rgb(231,148,24);
+        color:white;
+        height:50px;
+        width:200px;
+        font-size:20px;
+        border-radius:5px 5px 5px 5px;
+        border: 0.5px solid white;
+    }
+    a{
+     color:white;   
+    }
+    button:hover{
+        background-color:orange;
+    }
+    h3
+    {
+        position:absolute;
+        color:white;
+        top:170px;
+        left:110px;
+    }
+    }

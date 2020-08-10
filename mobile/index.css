@@ -1,0 +1,139 @@
+@media only screen and (max-width:720px){
+#page1{
+    background: url("background.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lobster', serif;
+    font-weight:lighter;
+   }
+   .header
+   {
+    font-family: 'Yatra One', cursive;
+   }
+   
+#save
+{
+    color:white;
+    font-family: 'Lobster', serif;
+    font-weight:lighter;
+}
+#browse
+{
+    color:white;
+    font-family: 'Lobster', serif;
+    font-weight:lighter;
+}
+   /*error message*/
+   #error{
+    background-color: #D87777;
+    width: 50%;
+    margin: 20px auto;
+    font-size: 20px;
+   }
+   /*read word*/
+   #result{
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5% 0;
+   }
+   /* Hide the number input */
+.full-width-slider input {
+ display: none ! important;
+}
+.full-width-slider .ui-slider-track {
+margin-left: 15px;
+}
+#save
+{
+    font-family: 'Lobster', serif;
+    font-weight:lighter;
+}
+}
+@media only screen and (min-width:720px){
+
+    #page1{
+        background: url("background.jpg");
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: 50% 100%;
+        color: #fff;
+        text-align: center;
+        font-family: 'Lobster', serif;
+        font-weight:lighter;
+       }
+       /*error message*/
+       #error{
+        background-color: #D87777;
+        width: 50%;
+        margin: 20px auto;
+        font-size: 20px;
+       }
+       /*read word*/
+       #result{
+        font-size: 50px;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 5% 0;
+       }
+       /* Hide the number input */
+    .full-width-slider input {
+     display: none ! important;
+    }
+    .full-width-slider .ui-slider-track {
+    margin-left: 15%;
+    }
+    #start
+    {
+        width:50%;
+        margin-left:25%;
+    }
+    #resume
+    {
+        width:50%;
+        margin-left:25%;
+    }
+    #save
+    {
+        color:white;
+        font-family: 'Lobster', serif;
+        font-weight:lighter;
+    }
+
+#browse
+{
+    color:white;
+    font-family: 'Lobster', serif;
+    font-weight:lighter;
+}
+    
+    #result
+    {
+        width:50%;
+        margin-left:25%;
+    }
+    #userInput
+    {
+        width:50%;
+        margin-left:25%;
+    }
+    #pause
+    {
+        width:50%;
+        margin-left:25%;
+    }
+    #new
+    {
+        width:50%;
+        margin-left:25%;
+    }
+    /* #bookmark
+    {
+        position:absolute;
+        top:46%;
+        left:41%;
+        width:50px;
+        height:50px;
+    } */
+}
