@@ -1,4 +1,4 @@
-@media (min-width:720px){
+@media (min-width:1080px){
 #background{
     background-image:url("mike.jpg");
     height:100%;
@@ -46,7 +46,7 @@ button:hover{
 
 
 
-@media (max-width:720px){
+@media (max-width:1080px){
     #background{
         background-image:url("back2.jpg");
         background-repeat:no-repeat;
